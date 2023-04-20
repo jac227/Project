@@ -1,0 +1,236 @@
+/* DEVELOPER: Justis Campbell, IS117-004, Spring 2023 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: gray !important;
+    overflow-y: scroll;
+}
+.navbar-brand img {
+    height: 50px;
+    margin-top: -15px;
+    width: auto;
+}
+.jumbotron{
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    background-color: maroon !important;
+}
+
+nav.navbar-nav {
+    background-color: maroon;
+}
+
+nav.navbar-default .navbar-nav > li > a {
+    background-color: maroon;
+    color: white;
+}
+
+nav {
+    background-color: maroon;
+}
+
+header {
+    background-color: black;
+    color: green;
+    padding: 20px;
+}
+h1 {
+    color: white !important;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+nav.navbar-nav > li > a:hover,
+nav.navbar-nav > li > a:focus {
+    color: maroon;
+}
+label{
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 0 40%;
+    max-width: 40%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+}
+a[href="contact.html"]{
+    color: maroon;
+}
+video {
+    padding-bottom: 20px;
+}
+.Video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.Video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+
+    background-color: #333;
+    color: maroon;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    clear:both;
+    padding: 10px;
+}
+
+/* image classes */
+
+.img-equipment {
+    width: 100%;
+    max-height: 400px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    float: left
+
+}
+.img-me{
+    max-width: 100%;
+    margin-right:20px;
+    margin-bottom: 20px;
+    float: left
+}
+.img-wrapper{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.img-description {
+    max-width: 100%;
+    text-align:center;
+    margin-bottom: 10px;
+    display:block;
+
+}
+
+.img-second{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.p.img-description {
+    max-width: 100%;
+    text-align:center;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    color: white;
+    text-indent: 20px;
+}
+.img-me.img-right {
+    max-width: 100%;
+    margin-right:20px;
+    margin-bottom: 20px;
+    float: right
+
+}
+
+.img-description.img-right{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+    display: block;
+
+}
+.img-description.img-equipment{
+    display: block;
+    text-align: center;
+}
+.img-description.img-second {
+    display: block;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.background-image-container {
+    background-image: url('/images/lanes image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-content {
+        flex-direction: column;
+        align-items: stretch;
+
+
+    }
+
+    .left-column,
+    .right-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .right-column {
+        margin-top: 20px;
+    }
+}
+
+
+

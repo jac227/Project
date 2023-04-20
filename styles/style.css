@@ -1,0 +1,130 @@
+/* DEVELOPER: Justis Campbell, IS117-004, Spring 2023 */
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+}
+
+header {
+
+   background-color: black;
+    color: green;
+    padding: 20px;
+}
+.navbar-brand img {
+    height: 50px; /* adjust this value to fit the height of your logo */
+    margin-top: -15px; /* adjust this value to vertically center the logo within the navbar */
+    width: auto; /* set the width to auto to adjust the logo size according to its height */
+}
+
+header nav ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav.navbar {
+
+    background-color: black; /* Replace with desired color */
+   /* color: #ffffff; /* Replace with desired color */
+
+}
+nav.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+
+    color: green;
+    text-decoration: none;
+}
+p {
+    font-size: 18px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section h1 {
+    margin-top: 0;
+}
+footer .text-muted{
+    color: white;
+    background-color: #333;
+}
+
+footer {
+    float: left;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Set width to 100% */
+    position: sticky; /* Add fixed position */
+    bottom: 0; /* Position at the bottom of the viewport */
+    left: 0; /* Position at the left of the viewport */
+}
+.text-muted{
+    color: white;
+}
+p1 {
+
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+.background-image-container {
+    background-image: url('/images/lanes image.jpg'); /* Replace with the URL or relative path of your image file */
+    background-size: cover;
+    background-position: center;
+}
+.container.h1 {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    color: white;
+    background-color: maroon;
+
+
+}
+
+
+
+.card {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack card text vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    text-align: center; /* Center align text within card */
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .card {
+
+
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+
+    }
+}
+h1 {
+}
+
+h1 {
+    color: white;
+}
